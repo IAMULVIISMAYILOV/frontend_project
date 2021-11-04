@@ -1,0 +1,312 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.navigation-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 45px 304px;
+}
+
+.navigation-bar a img {
+  height: 25px;
+  width: 205px;
+}
+
+.navigation-bar .nav_item a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  list-style: none;
+}
+
+.navigation-bar .nav_item {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.shopping_cart_inner {
+  position: relative;
+  display: table;
+  height: 100%;
+}
+
+.header_cart {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  color: #1b2024;
+}
+
+.header_cart .cart_icon_number_holder {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.shopping_cart_inner .cart_icon {
+  position: relative;
+  display: inline-block;
+  font-size: 21px;
+  vertical-align: top;
+  padding-right: 14px;
+}
+
+.cart_icon i {
+  font-style: italic;
+}
+
+.cart_number {
+  position: absolute;
+  top: -1px;
+  left: 11px;
+  width: 13px;
+  height: 13px;
+  background-color: #f34f3f;
+  font-size: 8px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.5em;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.icon_text {
+  position: relative;
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+}
+
+.navigation-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation-bar ul li {
+  padding-left: 25px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+.navigation-bar ul li:hover {
+  color: black;
+}
+
+.navigation-bar ul li::after {
+  content: "";
+  height: 1px;
+  background: #05080c;
+  display: block;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+ul li::after {
+  width: 0;
+}
+
+ul li:hover::after {
+  width: 100%;
+}
+
+.navigation-bar .search-icon .search i {
+  padding-left: 23px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: #05080c;
+  font-size: 20px;
+}
+
+.card-space .bag-icon .shopping-bag i {
+  padding-left: 23px;
+  color: #05080c;
+  margin-top: 11px;
+  font-size: 20px;
+}
+
+.bag-icon {
+  position: relative;
+}
+
+.card-space .num-holder .card-number {
+  position: absolute;
+  top: -5px;
+  left: 32px;
+  width: 13px;
+  height: 13px;
+  background-color: #f34f3f;
+  font-size: 8px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.5em;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.card-space .card-icon-text {
+  position: relative;
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+}
+
+.card-space .card-info {
+  position: relative;
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-space .bag-icon {
+  text-decoration: none;
+}
+
+.slider-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.slider-text h1 {
+  font-size: 60px;
+  font-family: "Playfair Display";
+}
+
+.slider-text span {
+  color: red;
+  -webkit-transition: none 0s ease 0s;
+  transition: none 0s ease 0s;
+  text-align: inherit;
+  line-height: 70px;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.slider-text p {
+  font-size: 17px;
+  color: #6d6a6a;
+  font-family: Lora;
+  margin-top: 25px;
+}
+
+.slider-text img {
+  margin-top: 30px;
+}
+
+.flowers-offers {
+  padding-left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 10px, 20px;
+  margin-top: 60px;
+}
+
+.flowers-offers .portfolio-menu ul li {
+  list-style-type: none;
+  margin-bottom: 0;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 40px;
+          padding-inline-start: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.flowers-offers .portfolio-menu ul li:hover {
+  color: #f34f3f;
+}
+
+.flowers-offers .filter h6 {
+  color: #1b1b1b;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-right: 150px;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+.flowers-offers .filter .sort-down-icon {
+  font-size: 19px;
+}
+
+.container .row .col-3 .text-wrapper h6 {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-top: 25px;
+  letter-spacing: 1.5px;
+}
+
+.container .row .col-3 .text-wrapper .flower-price {
+  position: relative;
+  display: block;
+  margin: 4px 0 0;
+  line-height: 1;
+  color: #afafaf;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.portfolio-menu {
+  text-align: center;
+}
+
+.container .portofolio-item {
+  width: 100%;
+}
+
+.container .portofolio-item .item {
+  width: 303px;
+  float: left;
+  margin-top: 10px;
+}

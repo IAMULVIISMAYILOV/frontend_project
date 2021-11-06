@@ -1,7 +1,7 @@
 @import "variables";
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 15px;
 }
 
@@ -306,5 +306,92 @@ ul li:hover::after {
   margin-top: 10px;
 }
 
-
 // flowers-offers section end
+
+// valentine section start
+
+.container-valentine {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f7f7f7;
+  display: flex;
+}
+
+.container-valentine .video-youtube {
+  margin-left: 270px;
+}
+
+.container-valentine .valentine-text .val-text .val-span {
+  color: #f34f3f;
+}
+
+.container-valentine .valentine-text .val-text {
+  margin: 20px 0;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.447em;
+  padding-left: 60px;
+}
+
+.container-valentine .valentine-text p {
+  font-size: 17px;
+  line-height: 29px;
+  margin-top: 27px;
+  padding-left: 60px;
+}
+
+.container-valentine .valentine-text .heart-text {
+  line-height: 1.6em;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+// valentine section end
+
+// flower expert section start
+
+.flower-experts h2 {
+  margin: 20px 0;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.flower-experts p {
+  font-family: Lora, serif;
+  text-align: center;
+}
+
+.flower-experts-team {
+  margin-top: 50px;
+  text-align: center;
+  // display: flex;
+}
+
+.flower-experts-team .team-img h6 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.flower-experts-team .team-img span {
+  display: block;
+  font-size: 12px;
+  color: #afafaf;
+  margin: 2px 0 4px;
+}
+
+.flower-experts-team .team-img .col-3{
+  margin-top: 20px;
+
+}
+// flower expert section end

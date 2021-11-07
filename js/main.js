@@ -15,9 +15,6 @@
 // //   $(this).activeClass('active').siblings.removeClass('active');
 // // });
 
-
-
-
 // $('.portfolio-menu ul li').click (function() {
 //   $('.portfolio-menu ul li').removeClass('active');
 //   $(this).addClass('active');
@@ -30,3 +27,10 @@
 //   return false;
 // });
 
+$(document).ready(function () {
+  $(".slider-florist").slick({
+    prevArrow: '<i class="fas fa-long-arrow-alt-left"></i>',
+    nextArrow: '<i class="fas fa-long-arrow-alt-right"></i>',
+    
+  });
+});

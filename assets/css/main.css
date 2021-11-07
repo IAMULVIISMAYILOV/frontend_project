@@ -1,5 +1,4 @@
 body {
-  font-family: "Playfair Display", serif;
   font-size: 15px;
 }
 
@@ -26,6 +25,7 @@ body {
   font-size: 12px;
   color: black;
   list-style: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navigation-bar .nav_item {
@@ -266,7 +266,7 @@ ul li:hover::after {
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-right: 150px;
+  margin-right: 116px;
   padding-top: 6px;
   cursor: pointer;
 }
@@ -275,7 +275,11 @@ ul li:hover::after {
   font-size: 19px;
 }
 
-.container .row .col-3 .text-wrapper h6 {
+.container-portfolio .img-fluid {
+  cursor: pointer;
+}
+
+.container-portfolio .row .text-wrapper h6 {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -283,7 +287,7 @@ ul li:hover::after {
   letter-spacing: 1.5px;
 }
 
-.container .row .col-3 .text-wrapper .flower-price {
+.container-portfolio .row .text-wrapper .flower-price {
   position: relative;
   display: block;
   margin: 4px 0 0;
@@ -301,7 +305,11 @@ ul li:hover::after {
   text-align: center;
 }
 
-.container .portofolio-item {
+.portfolio-menu ul {
+  margin-left: 85px;
+}
+
+.container-portfolio .portofolio-item {
   width: 100%;
 }
 
@@ -343,6 +351,8 @@ ul li:hover::after {
   line-height: 29px;
   margin-top: 27px;
   padding-left: 60px;
+  font-family: "Lora", serif;
+  color: #6d6a6a;
 }
 
 .container-valentine .valentine-text .heart-text {
@@ -363,10 +373,12 @@ ul li:hover::after {
 .flower-experts p {
   font-family: Lora, serif;
   text-align: center;
+  color: #6d6a6a;
 }
 
 .flower-experts-team {
   margin-top: 50px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -389,5 +401,142 @@ ul li:hover::after {
 }
 
 .flower-experts-team .team-img .col-3 {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.colorfull-brunch {
+  padding-top: 150px;
+  background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
+  background-position: 50% -121px;
+  background-attachment: fixed;
+  overflow: hidden;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: static;
+}
+
+.colorfull-brunch .colorfull-brunch-text h3 {
+  font-size: 30px;
+  line-height: 1.4em;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form-subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 390px;
+  padding-top: 30px;
+}
+
+.form-subscribe .form input {
+  width: 467px;
+  margin: 0 0 15px;
+  padding: 19px 18px;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+  font-weight: inherit;
+  border: 1px solid #1f1010;
+  border-radius: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  color: #959595;
+  font-size: 12px;
+  background-color: white;
+  border-color: #e8e8e8;
+}
+
+.form-subscribe .form2 {
+  margin-left: 120px;
+}
+
+.form-subscribe .form2 .form-sub {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  background: #f34f3f;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0px;
+  margin-left: 120px;
+  border: none;
+  padding: 0px 33px;
+  letter-spacing: 1px;
+}
+
+.blog {
+  background-color: #f7f7f7;
+  padding-bottom: 98px;
+}
+
+.blog .blog-text {
+  text-align: center;
+  padding-top: 98px;
+}
+
+.blog .blog-text h2 {
+  font-size: 38px;
+  line-height: 1.447em;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.blog .blog-text p {
+  font-family: Lora, serif;
+  color: #6d6a6a;
+  font-size: 17px;
+  padding-bottom: 40px;
+}
+
+.cont-blog .img-blog img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-blog {
+  position: relative;
+}
+
+.cont-blog .img-blog span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #050505;
+  background-color: white;
+  line-height: 1em;
+  padding: 12px 16px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cont-blog .row .blog-img-text h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  color: #2b2b2b;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.cont-blog .row .blog-img-text p {
+  font-family: Lora, serif;
+  font-size: 15px;
+  color: #6d6a6a;
+  text-align: center;
   margin-top: 20px;
 }

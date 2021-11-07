@@ -609,7 +609,6 @@ ul li:hover::after {
   position: absolute;
   color: #838181;
   margin-left: 500px;
-  margin-top: 100px;
   font-size: 30px;
 }
 
@@ -619,7 +618,6 @@ ul li:hover::after {
   right: 0px;
   color: #838181;
   margin-right: 500px;
-  margin-top: 100px;
   font-size: 30px;
   cursor: pointer;
 }
@@ -654,4 +652,110 @@ ul li:hover::after {
   line-height: 24px;
   text-transform: none;
   color: #afafaf;
+}
+
+footer {
+  background-color: #fefaf3;
+}
+
+.container-holder {
+  padding-top: 90px;
+}
+
+.container-holder .row .holder-header {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.container-holder .row .holder-header h6 {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.container-holder .row .holder-text .menu li {
+  list-style: none;
+  font-size: 12px;
+  color: #8b8b8b;
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin-left: -32px;
+  cursor: pointer;
+}
+
+.container-holder .row .holder-text .menu li:hover {
+  color: #f34f3f;
+}
+
+.line hr {
+  height: 1px;
+  width: 1300px;
+  padding-left: 50px;
+  margin-top: 100px;
+  color: #afafaf;
+}
+
+.container-conclusion {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.container-conclusion .row .text-widget .all-rights-reserved {
+  list-style: none;
+  font-size: 12px;
+  color: #8b8b8b;
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.container-conclusion .row .text-widget .qode-int {
+  list-style: none;
+  font-size: 12px;
+  color: #6d6a6a;
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.container-conclusion .insta a {
+  list-style: none;
+  font-size: 12px;
+  color: #8b8b8b;
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-left: 195px;
+}
+
+.container-conclusion .fb a {
+  list-style: none;
+  font-size: 12px;
+  color: #8b8b8b;
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+.container-conclusion .footer-img img {
+  margin-left: 110px;
+}
+
+.container-conclusion .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

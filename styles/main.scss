@@ -308,10 +308,46 @@ ul li:hover::after {
   width: 100%;
 }
 
-.container .portofolio-item .item {
+.container-portfolio .portofolio-item .item {
   width: 303px;
   float: left;
   margin-top: 10px;
+}
+
+.container-portfolio {
+  position: relative;
+}
+
+.edited-img {
+  height: 394.83px;
+  width: 306px;
+}
+.edited-span {
+  position: relative;
+  bottom: 476px;
+  left: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1px;
+}
+
+.edited-span .edited-sold {
+  left: 0;
+  color: #fff;
+  background-color: #2b2b2b;
+  border-color: transparent #2b2b2b transparent transparent;
+  padding: 5px 13px;
+  margin: 10px 0 0 12px;
+}
+
+.edited-span .edited-sale {
+  left: 0;
+  color: #2b2b2b;
+  background: #fff;
+  border-color: transparent #f34f3f transparent transparent;
+  padding: 5px 13px;
+  margin: 10px 0 0 12px;
 }
 
 // flowers-offers section end
@@ -508,7 +544,7 @@ ul li:hover::after {
   height: auto;
 }
 
-.img-blog{
+.img-blog {
   position: relative;
 }
 
